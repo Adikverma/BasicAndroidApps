@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">OneMonthAndroidUpdate</string>
+    <string name="button">Count++</string>
+    <string name="counting_no">  Counting No. </string>
+    <string name="limit">  Limit count  </string>
+    <string name="_0">0</string>
+    <string name="next">Next</string>
+
+    <string name="Enter_Creator"> Name of Sender: From </string>
+    <string name="create_the_card">Create The Card</string>
+    <string name="eg_aditya">Name Birthday Person: To</string>
+    <string name="textview">TextView</string>
+    <string name="to">Happy Birthday, Adi</string>
+    <string name="from_anuj">From Anuj</string>
+    <string name="from">from_Aman</string>
+
+    <string name="roll">Roll</string>
+    <string name="enter_lucky_number">Enter The Lucky Number</string>
+    <string name="you_will_get">You Will get 6 chances</string>
+    <string name="_6">6</string>
+</resources>

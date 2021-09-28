@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_700"
+    android:backgroundTint="#A64D6B"
+    android:backgroundTintMode="multiply"
+    android:orientation="vertical"
+    android:padding="14dp"
+    tools:context=".CountActivity">
+
+
+    <Button
+        android:id="@+id/btnCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="87dp"
+        android:padding="14dp"
+        android:text="@string/button"
+        app:layout_constraintBottom_toTopOf="@+id/btnNext1"
+        app:layout_constraintEnd_toEndOf="@+id/edtCountTo"
+        app:layout_constraintStart_toStartOf="@+id/txtCount"
+        app:layout_constraintTop_toBottomOf="@+id/edtCountTo"
+        app:layout_constraintVertical_bias="0.138" />
+
+    <TextView
+        android:id="@+id/txtCount"
+        android:layout_width="144dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="45dp"
+        android:background="@color/white"
+        android:hint="@string/counting_no"
+        android:padding="14dp"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/edtCountTo"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.178" />
+
+    <EditText
+        android:id="@+id/edtCountTo"
+        android:layout_width="125dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="14dp"
+        android:background="@color/white"
+        android:hint="@string/limit"
+        android:inputType="number"
+        android:padding="14dp"
+        android:text="@string/_0"
+        app:layout_constraintBottom_toBottomOf="@+id/txtCount"
+        app:layout_constraintStart_toEndOf="@+id/txtCount"
+        app:layout_constraintTop_toTopOf="@+id/txtCount" />
+
+    <Button
+        android:id="@+id/btnNext1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Birthday Card</string>
+    <string name="Enter_Creator"> Name of Sender: From </string>
+    <string name="create_the_card">Create The Card</string>
+    <string name="eg_aditya">Name Birthday Person: To</string>
+    <string name="textview">TextView</string>
+    <string name="happy_birthday_adi">Happy Birthday, Adi</string>
+    <string name="from_anuj">From Anuj</string>
+    <string name="from">from_Aman</string>
+</resources>
