@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">BillCalculator</string>
+    <string name="select_the_size_of_pizza">* Select the size of Pizza:</string>
+    <string name="large">large</string>
+    <string name="medium">Medium</string>
+    <string name="small">Small</string>
+    <string name="select_pizza_type">* Select Pizza Type:</string>
+    <string name="pizzeria">Pizzeria</string>
+    <string name="veg">Veg</string>
+    <string name="non_veg">Non-Veg</string>
+    <string name="select_extra_toppings">* Select extra Toppings:</string>
+    <string name="fresh_mushroom_20rs">Fresh Mushroom (20Rs)</string>
+    <string name="pepperoni_50rs">Pepperoni (50Rs)</string>
+    <string name="onions_20rs">Onions (20Rs)</string>
+    <string name="green_pepper_15rs">Green Pepper (15Rs)</string>
+    <string name="proceed_to_pay">Proceed To Pay</string>
 </resources>
